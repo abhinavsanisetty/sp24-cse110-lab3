@@ -1,3 +1,3 @@
 # Lab 2 - Starter
 
-https://abhinavsanisetty.github.io/Lab2_Starter/
+https://abhinavsanisetty.github.io/sp24-cse110-lab3/
