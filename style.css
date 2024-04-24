@@ -231,3 +231,27 @@ h2 {
     border: 1px solid #95b8db; 
 }
 
+/* Combining Two Selectors (element.class) */
+main.section {
+    font-size: 30px;
+}
+
+/* Descendant Combinator (element element) */
+header h2 {
+    font-size: 20px;
+}
+
+/* General Sibling Combinator (element ~ element) */
+h3 ~ p {
+    font-style: italic;
+}
+
+/* Adjacent Sibling Combinator (element + element) */
+section + section {
+    margin-top: 10px;
+}
+
+/* Child Combinator (element > element) */
+nav > ul {
+    margin-bottom: 20px;
+}
