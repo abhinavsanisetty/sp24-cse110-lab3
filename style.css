@@ -255,3 +255,30 @@ section + section {
 nav > ul {
     margin-bottom: 20px;
 }
+
+a[href="mailto:asanisetty@ucsd.edu"] {
+    text-decoration: wavy; 
+}
+
+
+/* Pseudo-class Selector */
+summary:hover {
+    text-decoration: underline; /* Underline summary on hover */
+}
+
+
+h2, h3 {
+    text-transform: uppercase; 
+}
+
+
+h2:has(+ p) {
+    margin-bottom: 30px;
+}
+
+.nest > ex:hover,
+.nest > ex:focus {
+    color: ivory;
+    background-color: royalblue;
+}
+  
