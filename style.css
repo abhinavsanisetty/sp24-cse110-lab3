@@ -1,8 +1,36 @@
 /* CSS Code to style HTML site from lab 2 */
 
+/*@import url('https://fonts.google.com/specimen/Jacquard+24');*/
 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
 h1 {
     font-size: 2.5em; /* Relative font size */
+    font-family: "Bebas Neue"; /* Font */
+}
+
+
+/* Display */
+
+section {
+    display: block; 
+}
+
+main {
+    display: inline-block; 
+}
+
+/* Text */
+h1, h2, h3, p, li {
+    color: #1b0c9a; 
+    text-align: center; 
+    text-decoration: underline; 
 }
 
 
@@ -116,4 +144,14 @@ body {
 /* Short hand notation for padding */
 header {
     padding: 10px 20px 10px 20px; 
+}
+
+/* Position */
+nav {
+    position: relative; 
+}
+
+
+header {
+    position: static; 
 }
