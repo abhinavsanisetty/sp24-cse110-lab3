@@ -1,20 +1,64 @@
 /* CSS Code to style HTML site from lab 2 */
 
-/*@import url('https://fonts.google.com/specimen/Jacquard+24');*/
-
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
-  
-h1 {
-    font-size: 2.5em; /* Relative font size */
-    font-family: "Bebas Neue"; /* Font */
+/* Pseudo-class */
+nav ul li:hover {
+    color: #4a8f51; 
 }
 
+nav ul li:active {
+    color: #e91a21; 
+}
+
+/* Media Query */
+@media screen and (max-width: 700px) {
+    section {
+        flex-direction: row; 
+        align-items: center; 
+    }
+    
+    main {
+        grid-template-columns: 100px; 
+    }
+}
+
+/* Flexbox */
+section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: right; 
+}
+
+
+section > * {
+    flex: 1; 
+    margin: 10px; 
+    padding: 20px; 
+    background-color: #d733d2; 
+}
+
+/* Grid */
+main {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    gap: 100px; 
+}
+
+
+main > * {
+    background-color: rgb(205, 28, 28); 
+    padding: 20px; 
+    border: 1px solid rgb(113, 84, 84); 
+}
+
+
+
+/* Text */
+h1, h2, h3, p, li {
+    color: #1b0c9a; 
+    text-align: center; 
+    text-decoration: none; /* Remove underline */
+    font-family: "Roboto", sans-serif; /* Change font */
+}
 
 /* Display */
 
@@ -26,11 +70,19 @@ main {
     display: inline-block; 
 }
 
-/* Text */
-h1, h2, h3, p, li {
-    color: #1b0c9a; 
-    text-align: center; 
-    text-decoration: underline; 
+/* Existing CSS code continues below... */
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+h1 {
+    font-size: 2.5em; /* Relative font size */
+    font-family: "Bebas Neue"; /* Font */
 }
 
 
