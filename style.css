@@ -1,0 +1,119 @@
+/* CSS Code to style HTML site from lab 2 */
+
+
+h1 {
+    font-size: 2.5em; /* Relative font size */
+}
+
+
+img {
+    max-width: 100%; /* Relative to parent container */
+}
+
+
+nav {
+    padding: 2vw; /* Relative padding based on viewport width */
+}
+
+
+
+header {
+    border-bottom: 2px solid #3316cc; /* Absolute border width */
+}
+
+
+section {
+    padding: 1.5cm; /* Absolute padding in centimeters */
+}
+
+
+fieldset {
+    border: 0.1in solid #575; 
+}
+
+/* Box Model */
+
+/* Margin - Long hand */
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Margin - Short hand */
+ul {
+    margin: 0 auto; 
+}
+
+/* Padding - Long hand */
+ol {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Padding - Short hand */
+div {
+    padding: 10px 20px 10px 20px; 
+}
+
+
+
+h2 {
+    border-style: solid; /* Solid border */
+}
+
+
+ul {
+    border-color: #8b2b19; 
+}
+
+/* Border Width - Long hand */
+ol {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+/* Border Width */
+main {
+    border-width: 2px; 
+}
+
+/* Border Radius */
+main {
+    border-radius: 10px; 
+}
+
+/* Height */
+img {
+    height: 200px; 
+}
+
+/* Width */
+audio {
+    width: 80%; 
+}
+
+/* Max Width */
+video {
+    max-width: 100%; 
+}
+
+/* Min Width */
+nav {
+    min-width: 200px; 
+}
+
+/* Short hand notation for margin */
+body {
+    margin: 10px 5px 10px 5px; 
+}
+
+/* Short hand notation for padding */
+header {
+    padding: 10px 20px 10px 20px; 
+}
